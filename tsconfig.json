@@ -7,10 +7,10 @@
     "esModuleInterop": true,
     "outDir": "dist",
     "resolveJsonModule": true,
-    "rootDirs": ["./src", "./scripts", "./test"],
+    "rootDirs": ["./src"],
     "typeRoots": ["./node_modules/@types", "./types"]
   },
-  "include": ["./typechain-types", "./scripts", "./test", "./src"],
+  "include": ["./typechain-types", "./test"],
   "exclude": ["node_modules", "build", "cache", "artifacts", "dist"],
   "files": ["./hardhat.config.ts"]
 }
